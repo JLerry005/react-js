@@ -13,8 +13,13 @@ const Header = () => {
 
     return (
         <header>
-            <nav>
-                <img src={logo} className="" alt='' width="40px" />
+            <nav className="nav">
+                <img src={logo} className="nav-logo" alt='nav-logo' />
+                <ul className="nav-item">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
@@ -36,7 +41,7 @@ const MainContent = () => {
                             <li>Forum Website</li>
                         </ul>
                     </li>
-                    <li>I love to learn a new things</li>
+                    <li>I love to learn a new things</li>aw
                 </ol>
             </section>
         </main>
